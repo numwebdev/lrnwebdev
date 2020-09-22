@@ -33,7 +33,7 @@ export default function SideBar() {
 						</li>
 						<li>
 							<a href="#pageSubmenuJS" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">JS</a>
-							<ul className="collapse list-unstyled" id="pageSubmenuJS">
+							{/* <ul className="collapse list-unstyled" id="pageSubmenuJS">
 								<li>
 									<a href="#">SC</a>
 								</li>
@@ -43,7 +43,7 @@ export default function SideBar() {
 								<li>
 									<a href="#">PG</a>
 								</li>
-							</ul>
+							</ul> */}
 						</li>
 						<li>
 							<Link to="/about">About</Link>
