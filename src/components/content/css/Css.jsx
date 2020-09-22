@@ -4,8 +4,8 @@ export default function Css() {
     return (
         <>
             <div align="center">
-                <div class="card bg-transparent shadow rounded-1" align="left">
-                    <img class="card-img-top" src="https://mdnmnahmed.github.io/learnhtmlnjs/assets/images/P-CSS.gif" alt="lrnwebdev" />
+                <div class="card bg-transparent shadow rounded-1">
+                    <img class="card-img-top" src={process.env.PUBLIC_URL + "/images/css.gif"} alt="lrnwebdev" />
                     <div class="card-body">
                         <h3 id="topic" className="text-center"><u>CSS</u></h3>
                         <p>

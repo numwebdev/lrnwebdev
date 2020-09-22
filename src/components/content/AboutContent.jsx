@@ -4,7 +4,7 @@ export default function App() {
 	return (
 		<>
 			<div align="center">
-                <img className="rounded-circle" src="https://mdnmnahmed.github.io/learnhtmlnjs/assets/images/N.jpg" width="200px" />
+                <img className="rounded-circle" src={process.env.PUBLIC_URL + "/nlogo.jpg"} width="200px" />
                 <br/>
                 <br/>
                 <h4>Hii, I'm <a href="https://mdnmnahmed.github.io/portfolio/" className="btn btn-dark" target="_BLANK">Numan</a> </h4>

@@ -21,7 +21,7 @@ export default function App() {
                             <Link to="/html" class="my_Btns shadow">Learn HTML</Link>
                         </div>
                         <span class="image object">
-                            <img className="shadow" src="https://mdnmnahmed.github.io/learnhtmlnjs/assets/images/P-HTML.gif" alt="lrnwebdev_html" />
+                            <img className="shadow" src={process.env.PUBLIC_URL + "/images/html.gif"} alt="lrnwebdev_html" />
                         </span>
                     </section>
                     <br />
@@ -32,7 +32,7 @@ export default function App() {
                                     <article>
                                         <div className="container">
                                             <div class="card bg-transparent shadow rounded-1" align="left">
-                                                <img class="card-img-top" src="https://mdnmnahmed.github.io/learnhtmlnjs/assets/images/P-CSS.gif" alt="lrnwebdev" />
+                                                <img class="card-img-top" src={process.env.PUBLIC_URL + "/images/css.gif"} alt="lrnwebdev" />
                                                 <div class="card-body">
                                                     <h3 id="topic" className="text-center"><u>CSS</u></h3>
                                                     <p>
@@ -51,7 +51,7 @@ export default function App() {
                                     <article>
                                         <div className="container mt-3 mt-lg-0">
                                             <div class="card bg-transparent shadow" align="left">
-                                                <img class="card-img-top" src="https://mdnmnahmed.github.io/learnhtmlnjs/assets/images/P-JS.gif" alt="lrnwebdev" />
+                                                <img class="card-img-top" src={process.env.PUBLIC_URL + "/images/js.gif"} alt="lrnwebdev" />
                                                 <div class="card-body">
                                                     <h3 id="topic" className="text-center"><u>JavaScript</u></h3>
                                                     <p>JavaScript is a High level interpreted Programming Language. After releasing NodeJS we can use JavaScript in both side Client side and Server Side.</p>

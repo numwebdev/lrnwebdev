@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export default function TagsAttributes() {
     return (
@@ -36,9 +36,9 @@ export default function TagsAttributes() {
                         <div class="posts">
                             <article>
                                 <h3 id="topic">Popular Tags:</h3>
-                                <div>
+                                <div align="center">
 
-                                    <table className="tags-table table table-striped table-hover table-responsive table-center text-center" align="center">
+                                    <table className="tags-table table table-striped table-hover table-responsive-sm table-center text-center ml-0 pl-0" align="center">
                                         <thead>
                                             <tr className="bg-dark text-white">
                                                 <th> Tags Name </th>
@@ -154,7 +154,7 @@ export default function TagsAttributes() {
                             <article>
                                 <h3 id="topic">Advanced Tags (HTML 5): </h3>
 
-                                <table className="tags-table table table-striped table-hover table-responsive table-center text-center">
+                                <table className="tags-table table table-striped table-hover table-responsive-sm table-center text-center">
                                     <thead>
                                         <tr className="bg-dark text-white">
                                             <th> Tags Name </th>

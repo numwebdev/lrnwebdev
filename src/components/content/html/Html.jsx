@@ -52,7 +52,7 @@ export default function Html() {
                                         <article className="col-lg-6 mt-4 mt-lg-0">
                                             <h4 id="topic">Syntax of HTML Tag, Attribute & Value</h4>
                                             <br />
-                                            <img className="card-img shadow" src="https://mdnmnahmed.github.io/learnhtmlnjs/assets/images/Element.jpg" alt="lrnwebdev" />
+                                            <img className="card-img shadow" src={process.env.PUBLIC_URL + "/images/Element.jpg"} alt="lrnwebdev" />
                                             <br />
                                             <div className="mt-4">
                                                 <Link to="/htmltags" className="my_Btns mt-2 ml-5">Learn Tags & Attributes</Link>

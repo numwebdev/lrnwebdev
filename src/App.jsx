@@ -2,7 +2,7 @@ import React from 'react';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-	// components
+// components
 import Header from './components/Header';
 import SideBar from './components/SideBar';
 import HomeContent from './components/content/HomeContent';
@@ -16,20 +16,20 @@ export default function App() {
 	return (
 		<>
 			<Router>
-			
-			<div className="wrapper">
-				
-				{/* SideBar */}
-				<SideBar />
 
-				{/* <!-- Page Content Holder --> */}
-				<div id="content">
+				<div className="wrapper">
 
-					{/* Header */}
-					<Header />
+					{/* SideBar */}
+					<SideBar />
 
-					<div>
-							<div className="jumbotron p-3 bg-transparent shadow">
+					{/* <!-- Page Content Holder --> */}
+					<div id="content">
+
+						{/* Header */}
+						<Header />
+
+						<div>
+							<div className="jumbotron p-lg-3  bg-transparent shadow">
 								<Switch>
 									<Route exact path='/' component={HomeContent} />
 									<Route path='/about' component={AboutContent} />
@@ -40,9 +40,9 @@ export default function App() {
 									<Route path='/js' component={Js} />
 								</Switch>
 							</div>
+						</div>
 					</div>
 				</div>
-			</div>
 			</Router>
 
 		</>
